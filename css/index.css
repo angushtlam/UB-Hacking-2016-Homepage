@@ -1,0 +1,104 @@
+html,
+body {
+  height: 100%;
+}
+
+#hero {
+  background: linear-gradient(rgba(226, 226, 183, 0.5), rgba(255, 255, 255, 0.5));
+  height: 100%;
+  padding: 20px;
+}
+
+#hero .parallax-container {
+  height: 100%;
+}
+
+#hero #hero-logo {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  z-index: 100;
+}
+
+#hero .hero-block {
+  margin: 0 auto;
+  text-align: center;
+}
+
+#hero .hero-block img {
+  display: block;
+  width: 100%;
+}
+
+#hero .hero-block h3 {
+  color: #71b743;
+  margin-top: 0;
+}
+
+.section {
+  background: url(../assets/bg.png);
+}
+
+/* Utils */
+.section-border {
+  padding: 10px;
+  display: block;
+  border: 5px solid rgba(17, 170, 197, 0.5);
+  height: 100%;
+  width: 100%;
+}
+
+.flex-wrapper {
+  align-items: center;
+  display: flex;
+  height: 100%;
+}
+
+.full-page {
+  min-height: 100%;
+}
+
+/*Sponsor List*/
+#sponsor-list {
+  text-align: center;
+}
+
+/* Fonts */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Baloo Bhaina', cursive;
+  margin-bottom: 0;
+}
+
+h2 {
+  color: #11aac5;
+}
+
+p {
+  font-family: 'Signika', sans-serif;
+  font-size: 18px;
+}
+
+.btn {
+  font-family: 'Signika', sans-serif;
+  font-size: 16px;
+  letter-spacing: 4px;
+}
+
+.btn-large {
+  font-family: 'Signika', sans-serif;
+  font-size: 22px;
+  letter-spacing: 4px;
+}
+
+a {
+  color: #71b743;
+}
+
+.page-footer {
+  background-color: #333 !important;
+}
