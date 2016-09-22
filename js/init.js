@@ -5,9 +5,9 @@ function startFirefly($) {
     'assets/firefly/cube_green.png'
     ],
     minPixel: 5,
-    maxPixel: 30,
+    maxPixel: 20,
     on: "#hero",
-    total: 20,
+    total: 30,
   });
 }
 
