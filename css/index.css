@@ -3,14 +3,24 @@ body {
   height: 100%;
 }
 
+.row img {
+  width: 100%;
+}
+
 #hero {
   background: linear-gradient(90deg, rgba(64, 212, 248, 0.5), rgba(188, 209, 168, 0.75));
-  height: 100%;
+  height: auto;
   padding: 20px;
 }
 
-#hero .parallax-container {
-  height: 100%;
+@media screen and (min-width: 993px) {
+  #hero {
+    height: 100%;
+  }
+
+  #hero .parallax-container {
+    height: 100% !important;
+  }
 }
 
 #hero #hero-logo {
@@ -54,8 +64,10 @@ body {
   height: 100%;
 }
 
-.full-page {
-  min-height: 100%;
+@media screen and (min-width: 993px) {
+  .full-page {
+    min-height: 100%;
+  }
 }
 
 /*Sponsor List*/
