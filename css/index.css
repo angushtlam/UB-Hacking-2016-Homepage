@@ -9,23 +9,17 @@ body {
 
 #hero {
   background: linear-gradient(90deg, rgba(64, 212, 248, 0.5), rgba(188, 209, 168, 0.75));
-  height: auto;
+  height: 100%;  
   padding: 20px;
 }
 
-@media screen and (min-width: 993px) {
-  #hero {
-    height: 100%;
-  }
-
-  #hero .parallax-container {
-    height: 100% !important;
-  }
+#hero .parallax-container {
+  height: 100% !important;
 }
 
 #hero #hero-logo {
   display: block;
-  margin: 0 auto;
+  margin: 0px auto;
   position: relative;
   z-index: 100;
 }
@@ -43,6 +37,10 @@ body {
 #hero .hero-block h3 {
   color: #71b743;
   margin-top: 0;
+}
+
+#hero .hero-block .box-btn {
+  width: 100%;
 }
 
 .section {
@@ -64,10 +62,9 @@ body {
   height: 100%;
 }
 
-@media screen and (min-width: 993px) {
-  .full-page {
-    min-height: 100%;
-  }
+
+.full-page {
+  min-height: 100%;
 }
 
 /*Sponsor List*/
